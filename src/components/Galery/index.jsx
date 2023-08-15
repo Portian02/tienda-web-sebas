@@ -7,7 +7,7 @@ const ShowProducts = () => {
         console.log({ productsData });
         return (
           <div>
-            <p>{products.character}</p>
+            <p>{products[0]?.character}</p>
           </div>
         );
       })}
