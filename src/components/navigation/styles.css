@@ -1,4 +1,4 @@
-.cont{
+.cont {
   background-color: coral;
   padding: 0.5rem;
 }
@@ -18,4 +18,7 @@ ul {
 text :hover {
   color: brown;
   text-decoration: underline;
+}
+.logo-png {
+  height: 100%;
 }

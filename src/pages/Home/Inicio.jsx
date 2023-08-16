@@ -4,6 +4,9 @@ import Navigation from "../../components/navigation";
 import useAuth from "../../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 import ShowProducts from "../../components/Galery";
+import Carousels from "../../components/carrusel";
+import Pagination from "../../components/pagination";
+import "./home.css";
 ////////////////////////IMPORTACIONES////////////////////////////////
 ////////////////////////////////////FUNCIO DE HOME///////////////////////////////
 const Inicio = () => {
@@ -22,19 +25,19 @@ const Inicio = () => {
   return (
     <>
       <Navigation />
+      <div className="container-carousel">
+        <Carousels />
+      </div>
+
       {auth.user ? (
         <>
-          <center>
-            <h1>Bienvenido {auth.user}</h1>
-            {/* <img
-              src="https://thumbs.gfycat.com/OddBiodegradableAmphiuma-max-1mb.gif"
-              alt=""
-            /> */}
-            <ShowProducts />
-            <br />
-            <br />
-            <button onClick={Logout}>Cerrar Sesión</button>
-          </center>
+          <div className="conatiner-cards">
+            <div className="main">
+              <ShowProducts />
+            </div>
+          </div>
+          {/* <button onClick={Logout}>Cerrar Sesión</button> */}
+          <Pagination page={page} setPage={setPage} />
         </>
       ) : (
         <>

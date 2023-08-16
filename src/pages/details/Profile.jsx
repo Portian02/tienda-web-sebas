@@ -1,14 +1,14 @@
 import Navigation from "../../components/navigation";
 // import { AuthContext } from "../../context/AuthContext";
-import {useEffect } from "react";
-import "../Profile/profile.css";
+import { useEffect } from "react";
+import "./profile.css";
 import ProfileCard from "../../components/profileCard";
 import { productsData } from "../../API/Users";
 import { useState } from "react";
 ////////////////////////IMPORTACIONES////////////////////////////////
 
 ////////////////////////////////////FUNCIO DE PERFIL///////////////////////////////
-const Perfil = () => {
+const Details = () => {
   // const { auth } = useContext(AuthContext);
   const [userData, setUserData] = useState({});
 
@@ -37,4 +37,4 @@ const Perfil = () => {
   );
 };
 ////////////////////////////////////FUNCIO DE PERFIL///////////////////////////////
-export default Perfil;
+export default Details;

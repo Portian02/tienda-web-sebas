@@ -1,0 +1,9 @@
+:root {
+  --clr-black: #1c1c1c;
+  --clr-gray: #ececec;
+  --cl-white: #f7f7f7;
+}
+
+.body{
+    background-color: var(--clr-gray);
+}

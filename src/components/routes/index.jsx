@@ -4,16 +4,16 @@ import Inicio from "../../pages/Home/Inicio";
 import Login from "../../pages/Login/Log";
 import NoPage from "../../pages/Nopage/Nopage";
 import PrivateRoute from "../routes/privateRoute";
-import Perfil from "../../pages/Profile/Profile";
-
+import Details from "../../pages/details/Profile";
+import Sell from "../../pages/Sell/add";
 const Routing = () => {
   return (
     <Routes>
       {/* SOLO SE MOSTRARÁN AL INICIAR SESIÓN  */}
       <Route element={<PrivateRoute />}>
         <Route path="/" element={<Inicio />} />
-        <Route path="/Perfil" element={<Perfil />} />
-       
+        <Route path="/details" element={<Details />} />
+        <Route path="/sell" element={<Sell />} />
       </Route>
 
       <Route path="/Sesion" element={<Login />} />

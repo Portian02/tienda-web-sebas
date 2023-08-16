@@ -378,8 +378,8 @@ const productsData = {
     {
       id: 26,
       img: "https://realpopmania.com/cdn/shop/products/4_35bdda54-163b-44e4-8bde-1d7bd0eb29be_700x.png?v=1668005510",
-      title: "Stitch with Ukulele",
-      character: "Stitch",
+      title: "Lilo & Stitch ",
+      character: "Stitch ",
       description:
         "He is an illegal genetic experiment created by Jumba Jookiba, whose original primary function is to destroy everything he touches. He is designed to be abnormally strong, virtually indestructible, super-intelligent, and very mischievous. His one true place is with Lilo and her ʻohana.",
       value: 9900,
@@ -707,7 +707,7 @@ const productsData = {
       id: 48,
       img: "https://www.bbtoystore.com/mm5/funko/FKO_29205.jpg",
       title: "The Incredibles",
-      character: "Monter  Jack",
+      character: "Monster  Jack",
       description:
         "this jack-jack´s form is very agressive and violent he gets mad quickly",
       value: 12000,
@@ -715,11 +715,252 @@ const productsData = {
       height: 12,
       weight: 120,
     },
-     //
+    //
     ///-----------⬆⬆⬆---------PIXAR´S CHARACTERS----------⬆⬆⬆-----------\\\
     //
     //
     //------------⬇⬇⬇⬇--------DISNEY´S VILLIANS--------⬇⬇⬇⬇-----------\\\
+    //
+    //
+    //_________Ursula´s Info__________\\
+    //
+    {
+      id: 49,
+      img: "https://realpopmania.com/cdn/shop/products/9_6d93d8b5-23f2-44e0-8dbc-d77375e9a48d_700x.png?v=1668004163",
+      title: "The Little Mermaid",
+      character: "Ursula",
+      description:
+        "Ursula is very manipulative and has a talent of making perfect sense and making great points when trying to strike a deal. ",
+      value: 12500,
+      currency: "₡",
+      height: 14,
+      weight: 120,
+    },
+    //
+    //_________Captain Hook´s Info__________\\
+    //
+    {
+      id: 50,
+      img: "https://realpopmania.com/cdn/shop/products/4_bcb879d5-c1af-4384-9dcf-50ca249704d2_700x.png?v=1687013224",
+      title: "Peter Pan",
+      character: "Captain Hook",
+      description:
+        "His two principal fears are the sight of his own blood (supposedly an unnatural colour) and the crocodile who pursues him after eating the hand cut off by Pan. An iron hook replaced his severed hand, which gave the pirate his name.",
+      value: 11000,
+      currency: "₡",
+      height: 12,
+      weight: 110,
+    },
+    //
+    //_________Jafar´s Info__________\\
+    //
+    {
+      id: 51,
+      img: "https://realpopmania.com/cdn/shop/products/2_249a323b-210e-426f-8bd3-46f97182a5e2_572x.png?v=1668004238",
+      title: "Aladdín",
+      character: " Red Jafar (as Genie) ",
+      description:
+        "Jafar is a masterful liar who has smooth-talked his way to the top, with the help of a little magical mind control. ",
+      value: 10500,
+      currency: "₡",
+      height: 14,
+      weight: 115,
+    },
+    //
+    //_________Doctor Facilier´s Info__________\\
+    //
+    {
+      id: 52,
+      img: "https://realpopmania.com/cdn/shop/products/7_3314b6c6-7b55-4b0a-a272-10a99677ea5d_700x.png?v=1668004174",
+      title: "The Princess and the Frog",
+      character: "Doctor Facilier",
+      description:
+        "He is an evil, smooth-talking voodoo witch doctor who plots to rule New Orleans with help from his 'friends on the other side'.",
+      value: 10000,
+      currency: "₡",
+      height: 13,
+      weight: 105,
+    },
+    //
+    //_________Cruella de Vil´s Info__________\\
+    //
+    {
+      id: 53,
+      img: "https://realpopmania.com/cdn/shop/products/3_76d4d9ad-eb79-42d3-a3fe-2f549713598a_700x.png?v=1668004170",
+      title: "101 Dalmatians",
+      character: "Cruella de Vil",
+      description:
+        " Cruella de Vil wants to kill so that she can use their skins to make a coat.",
+      value: 12000,
+      currency: "₡",
+      height: 15,
+      weight: 120,
+    },
+    //
+    //_________Evil Queen´s Info__________\\
+    //
+    {
+      id: 54,
+      img: "https://realpopmania.com/cdn/shop/products/2_f059a4b9-a562-4fd3-8c95-f0d2a7e9b532_700x.png?v=1668004168",
+      title: "Snow White and the Seven Dwarfs",
+      character: "Evil Queen",
+      description:
+        ", the Evil Queen is cold, sadistic, cruel, and extremely vain, owning a magic mirror, and obsessively desiring to remain the 'fairest in the land'.",
+      value: 12000,
+      currency: "₡",
+      height: 15,
+      weight: 120,
+    },
+    //
+    //_________Maleficent´s Info__________\\
+    //
+    {
+      id: 55,
+      img: "https://realpopmania.com/cdn/shop/products/6_d55532d3-5280-4079-b21e-bf171118f8d3_700x.png?v=1668004180",
+      title: "Sleeping Beauty",
+      character: "Maleficent",
+      description:
+        "She is represented as an evil fairy and the self-proclaimed 'Mistress of All Evil' who, after not being invited to a christening, curses the infant Princess Aurora to 'prick her finger on the spindle of a spinning wheel and die' before the sun sets on Aurora's sixteenth birthday.",
+      value: 12000,
+      currency: "₡",
+      height: 15,
+      weight: 120,
+    },
+    //
+    //_________Maleficent Dragon´s Info__________\\
+    //
+    {
+      id: 56,
+      img: "https://realpopmania.com/cdn/shop/products/3_15265528-f9fc-43c0-95ee-dc767c672748_700x.png?v=1668003952",
+      title: "Sleeping Beauty",
+      character: "Maleficent Dragon",
+      description:
+        "The dragon's body was totally consumed during the fire, leaving just the charred skeleton behind.",
+      value: 15000,
+      currency: "₡",
+      height: 25,
+      weight: 200,
+    },
+    //
+    //_________Lady Tremaine´s Info__________\\
+    //
+    {
+      id: 57,
+      img: "https://realpopmania.com/cdn/shop/products/1_72cffa27-cba1-446a-80f2-55e22f96b8a4_700x.png?v=1668004175",
+      title: "Cinderella",
+      character: "Lady Tremaine",
+      description:
+        "Lady Tremaine is a sophisticated socialite. But in her private life she's more like a tyrant, demanding perfection from her daughters and servitude from Cinderella.",
+      value: 12000,
+      currency: "₡",
+      height: 15,
+      weight: 120,
+    },
+    //
+    //_________Hades with Pain & Panic´s Info__________\\
+    //
+    {
+      id: 58,
+      img: "https://realpopmania.com/cdn/shop/products/27_01268aca-c09a-48a3-9b35-63cc87e5e0d2_700x.png?v=1668000817",
+      title: "Hercules",
+      character: "Hades with Pain & Panic",
+      description:
+        "He is the fast-talking god of the Underworld, known for having a fiery temper and a vendetta against his eldest brother, Zeus. ",
+      value: 15000,
+      currency: "₡",
+      height: 15,
+      weight: 220,
+    },
+    //
+    //_________Yzma & Kronk´s Info__________\\
+    //
+    {
+      id: 59,
+      img: "https://realpopmania.com/cdn/shop/products/1_fd3c1dca-510b-4453-b932-ddb8d36b7ed3_700x.png?v=1669377253",
+      title: "The Emperor's New Groove",
+      character: "Yzma",
+      description:
+        "Yzma is malicious, funny, silly, raspy, and power-hungry. However, early in the first movie, it seems that she raised Kuzco. .",
+      value: 25000,
+      currency: "₡",
+      height: 15,
+      weight: 220,
+    },
+    //
+    //_________Scar with Hyenas´s Info__________\\
+    //
+    {
+      id: 60,
+      img: "https://realpopmania.com/cdn/shop/products/14_402797be-4fdf-47ec-87e9-8e3af9cb85e0_700x.png?v=1668000450",
+      title: "The Lion King",
+      character: "Scar with Hyenas",
+      description:
+        "The scheming younger brother of Mufasa, Scar was next-in-line to take the throne until his nephew Simba, Mufasa's son, was born, replacing him. ",
+      value: 25000,
+      currency: "₡",
+      height: 20,
+      weight: 225,
+    },
+    //
+    //_________Gaston´s Info__________\\
+    //
+    {
+      id: 61,
+      img: "https://realpopmania.com/cdn/shop/products/19_1839d3f2-fac9-4c1d-9b3d-6757d7d3d40c_700x.png?v=1668003203",
+      title: "Beauty and the Beast",
+      character: "Gaston",
+      description:
+        "Gaston is an arrogant and aggressive hunter whose unrequited feelings for the intellectual Belle drive him to murder his adversary.",
+      value: 12000,
+      currency: "₡",
+      height: 12,
+      weight: 110,
+    },
+    //
+    //_________Queen of Hearts´s Info__________\\
+    //
+    {
+      id: 62,
+      img: "https://realpopmania.com/cdn/shop/products/10_8546e3d9-fabe-4d77-ad66-eadcdb2155a8_700x.png?v=1668005484",
+      title: "Alice in Wonderland",
+      character: "Queen of Hearts",
+      description:
+        "she is an incredibly immature, impatient, argumentative, domineering, oppressive, and sensitive individual, prone to temper tantrums, and, as stated above, rather egotistical.",
+      value: 12000,
+      currency: "₡",
+      height: 12,
+      weight: 120,
+    },
+    //
+    //_________Witch´s Info__________\\
+    //
+    {
+      id: 63,
+      img: "https://www.pijusmagnifikus.com/tenda/570-large_default/figura-funko-pop-disney-347-blancanieves-bruja.jpg",
+      title: "Snow White and the Seven Dwarfs",
+      character: "Witch",
+      description:
+        "This led her to take a potion to transform herself into an old woman, after trying to murder her, in order to tempt Snow White to eat a poisoned apple.",
+      value: 12000,
+      currency: "₡",
+      height: 12,
+      weight: 120,
+    },
+    //
+    //_________Prince John´s Info__________\\
+    //
+    {
+      id: 64,
+      img: "https://www.toyslife.it/sito/wp-content/uploads/funko-pop-robin-hood-prince-john-toyslife.jpg",
+      title: "Robin Hood",
+      character: "Prince John",
+      description:
+        "He is the younger brother of King Richard, from whom John usurped the throne of England with the aid of his assistant, Sir Hiss.",
+      value: 12000,
+      currency: "₡",
+      height: 12,
+      weight: 120,
+    },
     //
   ],
 };
