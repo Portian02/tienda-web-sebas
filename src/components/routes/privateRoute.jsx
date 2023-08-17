@@ -7,6 +7,6 @@ const PrivateRoute = () => {
   const { auth } = useAuth();
 
   // ESTE OUTLE SUSTITUYE LAS PÁGINA PRIVADAS HOME AND PERFIL 
-  return auth.user ? <Outlet /> : <Navigate to="/Sesion" />;
+  return auth.user ? <Outlet /> : <Navigate to="/login" />;
 };
 export default PrivateRoute;

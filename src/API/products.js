@@ -1,10 +1,10 @@
 //These are the data about all funko Pops  that we´ll show on the screen
 
-const productsData = {
+const funkoData = {
   count: 64,
-  items: [
-    ///-----------------------DISNEY´S PRINCESS---------------------\\\
 
+  ///-----------------------DISNEY´S PRINCESS---------------------\\\
+  princess: [
     //_________Aurora´s Info__________\\
     {
       id: 0,
@@ -243,8 +243,11 @@ const productsData = {
       height: 10,
       weight: 110,
     },
-    ///-----------⬆⬆⬆---------DISNEY´S PRINCESS----------⬆⬆⬆-----------\\\
-    //
+  ],
+  ///-----------⬆⬆⬆---------DISNEY´S PRINCESS----------⬆⬆⬆-----------\\\
+  //
+
+  disney_characters: [
     //
     //------------⬇⬇⬇⬇--------DISNEY´S CHARACTERS--------⬇⬇⬇⬇-----------\\\
     //
@@ -293,7 +296,7 @@ const productsData = {
     //_________Simba´s Info__________\\
     {
       id: 19,
-      img: "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw61064ff1/images/funko/36395-2.png?sw=800&sh=800x",
+      img: "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw61064ff1/images/funko/36395-2.png?sw=800&sh=800",
       title: "The Lion King",
       character: "Simba-child",
       description:
@@ -423,7 +426,7 @@ const productsData = {
       title: "The Little  Mermaid",
       character: "Flounder",
       description:
-        "Flounder gets scared easily, and is prone to panicking under stressful situations, but when Ariel is in trouble, he comes through for her without hesitation. He is undoubtedly loyal, freakishly adorable, and characteristically lovable.",
+        "lounder gets scared easily, and is prone to panicking under stressful situations, but when Ariel is in trouble, he comes through for her without hesitation. He is undoubtedly loyal, freakishly adorable, and characteristically lovable.",
       value: 10900,
       currency: "₡",
       height: 11,
@@ -473,8 +476,11 @@ const productsData = {
     },
     //
     ///-----------⬆⬆⬆---------DISNEY´S CHARACTERS----------⬆⬆⬆-----------\\\
+  ],
+  //
+  pixar: [
     //
-    //
+
     //------------⬇⬇⬇⬇--------PIXAR´S CHARACTERS--------⬇⬇⬇⬇-----------\\\
     //
     //_________Woody´s Info__________\\
@@ -718,7 +724,9 @@ const productsData = {
     //
     ///-----------⬆⬆⬆---------PIXAR´S CHARACTERS----------⬆⬆⬆-----------\\\
     //
-    //
+  ],
+  //
+  villians: [
     //------------⬇⬇⬇⬇--------DISNEY´S VILLIANS--------⬇⬇⬇⬇-----------\\\
     //
     //
@@ -961,8 +969,7 @@ const productsData = {
       height: 12,
       weight: 120,
     },
-    //
   ],
 };
 
-export { productsData };
+export { funkoData };

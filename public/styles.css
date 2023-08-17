@@ -1,9 +1,10 @@
 :root {
   --clr-black: #1c1c1c;
-  --clr-gray: #ececec;
+  --clr-gray: hsl(0, 0%, 93%);
   --cl-white: #f7f7f7;
+  --type-ice: #98d8d8;
 }
 
-.body{
-    background-color: var(--clr-gray);
+.body {
+  background-color: var(--cl-white);
 }

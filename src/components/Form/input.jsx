@@ -22,7 +22,7 @@ const Form = ({ onSubmit }) => {
     e.preventDefault();
     // Lista de objetos con usuarios y contraseñas para validar
     const users = [
-      { usuario: "Sebas", password: "310210Ap" },
+      { usuario: "Sebas", password: "1234" },
       { usuario: "Jaki", password: "078901" },
       { usuario: "Prii", password: "010591" },
     ];

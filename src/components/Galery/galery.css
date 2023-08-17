@@ -2,12 +2,32 @@
   --clr-black: #1c1c1c;
   --clr-gray: #ececec;
   --cl-white: #f7f7f7;
+  /* /////////COLOR BY TYPES//////////////// */
+  --type-normal: #a8a878;
+  --type-fire: #f08030;
+  --type-water: #6890f0;
+  --type-grass: #78c850;
+  --type-electric: #f8d030;
+  --type-ice: #98d8d8;
+  --type-figthing: #c03028;
+  --type-poison: #a040a0;
+  --type-ground: #e0c068;
+  --type-flying: #a890f0;
+  --type-psychic: #f85888;
+  --type-bug: #a8b820;
+  --type-rock: #b8a038;
+  --type-ghost: #705898;
+  --type-dark: #705848;
+  --type-dragon: #7038f8;
+  --type-steel: #b8b8d0;
+  --type-fairy: #f0b6bc;
 }
 
 .container-products {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  color: var(--cl-black);
 }
 @media screen and (min-width: 480px) {
   .container-products {
@@ -25,12 +45,18 @@
   border: 2px var(--clr-black);
   border-radius: 1rem;
   /* background-repeat: no-repeat; */
-  background-color: white;
+
   box-shadow: 0 0 3rem -1rem grba(0, 0, 0, 0.25);
   padding-block: 1rem;
   text-transform: uppercase;
   position: relative;
   isolation: isolate;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .poke-id-back {
@@ -51,8 +77,8 @@
 }
 
 .funko-imagen img {
-  width: 100%;
-  max-width: 10rem;
+  width: cover;
+  max-width: 14rem;
 }
 
 .funko-imagen img:hover {
@@ -94,7 +120,7 @@
   color: var(--clr-black);
 }
 .id-product {
-  background-color: var(--clr-gray);
+  background-color: var(--type-psychic);
   padding: 0.25rem 0.5rem;
   border-radius: 100vmax;
   font-size: 0.75rem;

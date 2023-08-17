@@ -5,9 +5,11 @@ import useAuth from "../../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 import ShowProducts from "../../components/Galery";
 import Carousels from "../../components/carrusel";
-import Pagination from "../../components/pagination";
 import "./home.css";
 ////////////////////////IMPORTACIONES////////////////////////////////
+//
+//
+//
 ////////////////////////////////////FUNCIO DE HOME///////////////////////////////
 const Inicio = () => {
   const { auth, setAuth } = useAuth();
@@ -15,11 +17,11 @@ const Inicio = () => {
 
   const Logout = () => {
     setAuth({});
-    navigate("/Sesion");
+    navigate("/login");
   };
 
   const goToLogin = () => {
-    navigate("/Sesion");
+    navigate("/login");
   };
 
   return (
@@ -37,7 +39,6 @@ const Inicio = () => {
             </div>
           </div>
           {/* <button onClick={Logout}>Cerrar Sesión</button> */}
-          <Pagination page={page} setPage={setPage} />
         </>
       ) : (
         <>

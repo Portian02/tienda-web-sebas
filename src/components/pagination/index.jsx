@@ -8,17 +8,18 @@ const Pagination = ({ page, setPage }) => {
   const nextBtn = () => {
     setPage(page + 1);
   };
-
   return (
     <div>
       <center>
         <div className="btns">
           <button className="back" disabled={page <= 0} onClick={backBtn}>
-            ↩
+            Back
           </button>
+
           <h3>{page + 1}</h3>
+
           <button className="next" disabled={page >= 3} onClick={nextBtn}>
-            ↪
+            Next
           </button>
         </div>
       </center>
