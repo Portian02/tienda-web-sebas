@@ -38,15 +38,21 @@ const AddNewProduct = () => {
       currency.trim() === ""
     ) {
       Swal.fire({
-        title: "Sweet!",
-        text: "Modal with a custom image.",
-        imageUrl: "https://unsplash.it/400/200",
-        imageWidth: 400,
-        imageHeight: 200,
-        imageAlt: "Custom image",
+        position: "top-end",
+        icon: "success",
+        title: "Your product has been saved",
+        showConfirmButton: false,
+        timer: 1500,
       });
     } else {
       newList[0].push(aux);
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "Your work has been saved",
+        showConfirmButton: false,
+        timer: 1500,
+      });
       console.log(newList);
     }
   };
