@@ -1,17 +1,20 @@
 import React from "react";
-import { funkoData } from "../../API/products";
 import { Link } from "react-router-dom";
+import { productsData } from "../../API/Users";
+
+const princess = productsData.items[0].type;
 
 const ShowPrincess = () => {
   return (
     <div className="container-products">
-      {funkoData.princess.map((products) => {
+      {productsData.items.map((products) => {
+        if (products.type === princess) {
           return (
             <div key={products.id} className="card-Product">
               {/* <p className="poke-id-back">#{pokemon.id}</p> */}
               <h4 className="product-Info">{products.title}</h4>
               <div className="funko-imagen">
-                <Link to="/details">
+                <Link to={`details/${products.id}`}>
                   <img src={products.img} alt={products.character} />
                 </Link>
               </div>
@@ -26,7 +29,8 @@ const ShowPrincess = () => {
               </div>
             </div>
           );
-        })}
+        }
+      })}
       ;
     </div>
   );

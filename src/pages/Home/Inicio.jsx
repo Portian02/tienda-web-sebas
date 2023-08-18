@@ -15,10 +15,6 @@ const Inicio = () => {
   const { auth, setAuth } = useAuth();
   const navigate = useNavigate();
 
-  const Logout = () => {
-    setAuth({});
-    navigate("/login");
-  };
 
   const goToLogin = () => {
     navigate("/login");
@@ -38,7 +34,7 @@ const Inicio = () => {
               <ShowProducts />
             </div>
           </div>
-          {/* <button onClick={Logout}>Cerrar Sesión</button> */}
+         
         </>
       ) : (
         <>

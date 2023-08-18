@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
-import { productsData } from "../../API/Users";
+// import { productsData } from "../../API/Users";
 import Button from "react-bootstrap/Button";
+import Swal from "sweetalert2";
+import { AuthContext } from "../../context/AuthContext";
 
 const AddNewProduct = () => {
   const [image, setImage] = useState("");
@@ -11,13 +13,14 @@ const AddNewProduct = () => {
   const [description, setDescription] = useState("");
   const [value, setValue] = useState("");
   const [currency, setCurrency] = useState("");
+  const { list } = useContext(AuthContext);
 
-  const producst = productsData.items;
+  const producst = list[0].items;
   const newList = [];
   newList.push(producst);
   const aux = {
     id: producst.length,
-    image: image,
+    img: image,
     title: title,
     character: character,
     description: description,
@@ -27,10 +30,21 @@ const AddNewProduct = () => {
 
   const products = () => {
     if (
-      image.toLocaleLowerCase().trim() ||
-      character.toLocaleLowerCase().trim() === ""
+      image.trim() === "" ||
+      title.trim() === "" ||
+      character.trim() === "" ||
+      description.trim() === "" ||
+      value.trim() === "" ||
+      currency.trim() === ""
     ) {
-      alert("vacio");
+      Swal.fire({
+        title: "Sweet!",
+        text: "Modal with a custom image.",
+        imageUrl: "https://unsplash.it/400/200",
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: "Custom image",
+      });
     } else {
       newList[0].push(aux);
       console.log(newList);
@@ -57,6 +71,7 @@ const AddNewProduct = () => {
                   type="text"
                   placeholder="Image"
                   onChange={(e) => setImage(e.target.value)}
+                  value={image}
                 />
                 <label htmlFor="floatingImageCustom">Image</label>
               </Form.Floating>
@@ -67,6 +82,7 @@ const AddNewProduct = () => {
                 type="text"
                 placeholder="Title"
                 onChange={(e) => setTitle(e.target.value)}
+                value={title}
               />
               <label htmlFor="floatingTitleCustom">Title</label>
             </Form.Floating>
@@ -77,6 +93,7 @@ const AddNewProduct = () => {
                 type="text"
                 placeholder="character"
                 onChange={(e) => setCharacter(e.target.value)}
+                value={character}
               />
               <label htmlFor="floatingCharacterCustom">Character</label>
             </Form.Floating>
@@ -86,6 +103,7 @@ const AddNewProduct = () => {
                 type="text"
                 placeholder="Title"
                 onChange={(e) => setDescription(e.target.value)}
+                value={description}
               />
               <label htmlFor="floatingDescriptionCustom">Description</label>
             </Form.Floating>
@@ -96,6 +114,7 @@ const AddNewProduct = () => {
                 type="text"
                 placeholder="Title"
                 onChange={(e) => setValue(e.target.value)}
+                value={value}
               />
               <label htmlFor="floatingValueCustom">Value</label>
             </Form.Floating>
@@ -106,6 +125,7 @@ const AddNewProduct = () => {
                 type="text"
                 placeholder="Title"
                 onChange={(e) => setCurrency(e.target.value)}
+                value={currency}
               />
               <label htmlFor="floatingCurrencyCustom">Currency</label>
             </Form.Floating>

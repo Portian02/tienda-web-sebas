@@ -1,17 +1,20 @@
 import React from "react";
-import { funkoData } from "../../API/products";
 import { Link } from "react-router-dom";
+import { productsData } from "../../API/Users";
 
 const ShowCharcatersPixar = () => {
+  const pixar = productsData.items[32].type;
+  
   return (
     <div className="container-products">
-      {funkoData.pixar.map((products) => {
+      {productsData.items.map((products) => {
+        if (products.type === pixar) {
           return (
             <div key={products.id} className="card-Product">
               {/* <p className="poke-id-back">#{pokemon.id}</p> */}
               <h4 className="product-Info">{products.title}</h4>
               <div className="funko-imagen">
-                <Link to="/details">
+                <Link to={`details/${products.id}`}>
                   <img src={products.img} alt={products.character} />
                 </Link>
               </div>
@@ -26,7 +29,8 @@ const ShowCharcatersPixar = () => {
               </div>
             </div>
           );
-        })}
+        }
+      })}
       ;
     </div>
   );

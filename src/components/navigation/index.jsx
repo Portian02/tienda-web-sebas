@@ -1,12 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Button from "react-bootstrap/Button";
+import useAuth from "../../hooks/useAuth";
+
 import "./styles.css";
 
 // Funcion de navigation
-const Navigation = () => {
+const Navigation = ({}) => {
+  const { auth, setAuth } = useAuth();
+  const navigate = useNavigate();
+
+  const Logout = () => {
+    setAuth({});
+    navigate("/login");
+  };
   return (
     <Navbar expand="lg" className="cont">
       <Container>
@@ -33,20 +43,46 @@ const Navigation = () => {
               {" "}
               <Nav className="text">Sell</Nav>
             </Link>{" "}
-            <NavDropdown title="Categories">
-              <Link to="/princess" className="link">
-                <NavDropdown.Item>Princess</NavDropdown.Item>
-              </Link>
-              <Link to="/pixar" className="link">
-                <NavDropdown.Item>Pixar</NavDropdown.Item>
-              </Link>
-              <Link to="/villians" className="link">
-                <NavDropdown.Item>Villians</NavDropdown.Item>
-              </Link>
-              <Link to="/charactersDisney" className="link">
-                <NavDropdown.Item>Other Characters</NavDropdown.Item>
-              </Link>
+            <NavDropdown
+              style={{ color: "white" }}
+              title="Categories"
+              className="droper"
+            >
+              <NavDropdown.Item>
+                {" "}
+                <Link to="/princess" className="link">
+                  Princess
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link to="/pixar" className="link">
+                  Pixar{" "}
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                {" "}
+                <Link to="/villians" className="link">
+                  Villians
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link to="/charactersDisney" className="link">
+                  Other Characters{" "}
+                </Link>
+              </NavDropdown.Item>
             </NavDropdown>
+            {auth.user ? (
+              <>
+                <Button variant="outline-danger" onClick={Logout}>
+                  Log Out
+                </Button>
+              </>
+            ) : (
+              ""
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>

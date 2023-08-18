@@ -11,7 +11,7 @@ const DisneyVillians = () => {
             {/* <p className="poke-id-back">#{pokemon.id}</p> */}
             <h4 className="product-Info">{products.title}</h4>
             <div className="funko-imagen">
-              <Link to="/details">
+              <Link to={`details/${products.id}`}>
                 <img src={products.img} alt={products.character} />
               </Link>
             </div>

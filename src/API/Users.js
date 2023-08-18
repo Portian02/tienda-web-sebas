@@ -17,6 +17,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 110,
+      type: " princess",
     },
     //
     //
@@ -32,6 +33,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 105,
+      type: " princess",
     },
     //
     //
@@ -47,6 +49,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 115,
+      type: " princess",
     },
     //
     //
@@ -62,6 +65,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 107,
+      type: " princess",
     },
     //
     //
@@ -77,6 +81,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 112,
+      type: " princess",
     },
     //
     //
@@ -92,6 +97,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: " princess",
     },
     //
     //
@@ -107,6 +113,7 @@ const productsData = {
       currency: "₡",
       height: 10.5,
       weight: 125,
+      type: " princess",
     },
     //
     //
@@ -122,6 +129,7 @@ const productsData = {
       currency: "₡",
       height: 13,
       weight: 110,
+      type: " princess",
     },
     //
     //
@@ -137,6 +145,7 @@ const productsData = {
       currency: "₡",
       height: 13,
       weight: 110,
+      type: " princess",
     },
     //
     //
@@ -152,6 +161,7 @@ const productsData = {
       currency: "₡",
       height: 13.5,
       weight: 120,
+      type: " princess",
     },
     //
     //
@@ -167,6 +177,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 100,
+      type: " princess",
     },
     //
     //
@@ -182,6 +193,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 108,
+      type: " princess",
     },
     //
     //
@@ -197,6 +209,7 @@ const productsData = {
       currency: "₡",
       height: 9.5,
       weight: 109,
+      type: " princess",
     },
     //
     //
@@ -212,6 +225,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 100,
+      type: " princess",
     },
     //
     //
@@ -227,6 +241,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 105,
+      type: " princess",
     },
     //
     //
@@ -242,6 +257,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 110,
+      type: " princess",
     },
     ///-----------⬆⬆⬆---------DISNEY´S PRINCESS----------⬆⬆⬆-----------\\\
     //
@@ -260,6 +276,7 @@ const productsData = {
       currency: "₡",
       height: 9,
       weight: 102,
+      type: "disney",
     },
     //
     //_________Mufasa´s Info__________\\
@@ -274,6 +291,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 120,
+      type: "disney",
     },
     //
     //_________Scar´s Info__________\\
@@ -288,6 +306,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 110,
+      type: "disney",
     },
     //
     //_________Simba´s Info__________\\
@@ -302,6 +321,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 106,
+      type: "disney",
     },
     //
     //_________Zazu´s Info__________\\
@@ -316,6 +336,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 109,
+      type: "disney",
     },
     //
     //_________Nala´s Info__________\\
@@ -330,6 +351,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 106,
+      type: "disney",
     },
     //
     //_________Timon´s Info__________\\
@@ -344,6 +366,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 105,
+      type: "disney",
     },
     //
     //_________ Pumba´s Info__________\\
@@ -358,6 +381,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 105,
+      type: "disney",
     },
     //
     //_________Lilo´s Info__________\\
@@ -372,6 +396,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "disney",
     },
     //
     //_________Stitch´s Info__________\\
@@ -386,6 +411,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "disney",
     },
     //
     //_________Dumbos´s Info__________\\
@@ -400,6 +426,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 125,
+      type: "disney",
     },
     //
     //_________Sebastian´s Info__________\\
@@ -414,6 +441,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 115,
+      type: "disney",
     },
     //
     //_________Flounder´s Info__________\\
@@ -428,6 +456,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 106,
+      type: "disney",
     },
     //
     //_________Scuttle´s Info__________\\
@@ -442,6 +471,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 105,
+      type: "disney",
     },
     //
     //_________Peter´s Info__________\\
@@ -456,6 +486,7 @@ const productsData = {
       currency: "₡",
       height: 11,
       weight: 105,
+      type: "disney",
     },
     //
     //_________Tinkerbell´s Info__________\\
@@ -470,6 +501,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "disney",
     },
     //
     ///-----------⬆⬆⬆---------DISNEY´S CHARACTERS----------⬆⬆⬆-----------\\\
@@ -489,6 +521,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Rex´s Info__________\\
@@ -504,6 +537,7 @@ const productsData = {
       currency: "₡",
       height: 13,
       weight: 125,
+      type: "pixar",
     },
     //
     //_________Olaf´s Info__________\\
@@ -519,6 +553,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Buzzlightyear´s Info__________\\
@@ -534,6 +569,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________flik´s Info__________\\
@@ -549,6 +585,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Bo peep´s Info__________\\
@@ -564,6 +601,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Jessie´s Info__________\\
@@ -579,6 +617,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Bullseye´s Info__________\\
@@ -594,6 +633,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Mr.incredible´s Info__________\\
@@ -609,6 +649,7 @@ const productsData = {
       currency: "₡",
       height: 14,
       weight: 110,
+      type: "pixar",
     },
     //
     //_________Elastigirl´s Info__________\\
@@ -624,6 +665,7 @@ const productsData = {
       currency: "₡",
       height: 14,
       weight: 106,
+      type: "pixar",
     },
     //
     //_________Violet´s Info__________\\
@@ -639,6 +681,7 @@ const productsData = {
       currency: "₡",
       height: 14,
       weight: 104,
+      type: "pixar",
     },
     //
     //_________Dash Info__________\\
@@ -654,6 +697,7 @@ const productsData = {
       currency: "₡",
       height: 13,
       weight: 105,
+      type: "pixar",
     },
     //
     //_________Jack-Jakc´s Info__________\\
@@ -669,6 +713,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Carl & Ellie Disney´s Info__________\\
@@ -684,6 +729,7 @@ const productsData = {
       currency: "₡",
       height: 10,
       weight: 100,
+      type: "pixar",
     },
     //
     //_________Frozone´s Info__________\\
@@ -699,6 +745,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 120,
+      type: "pixar",
     },
     //
     //_________jack jack´s Info__________\\
@@ -714,6 +761,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 120,
+      type: "pixar",
     },
     //
     ///-----------⬆⬆⬆---------PIXAR´S CHARACTERS----------⬆⬆⬆-----------\\\
@@ -735,6 +783,7 @@ const productsData = {
       currency: "₡",
       height: 14,
       weight: 120,
+      type: "villians",
     },
     //
     //_________Captain Hook´s Info__________\\
@@ -750,6 +799,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 110,
+      type: "villians",
     },
     //
     //_________Jafar´s Info__________\\
@@ -765,6 +815,7 @@ const productsData = {
       currency: "₡",
       height: 14,
       weight: 115,
+      type: "villians",
     },
     //
     //_________Doctor Facilier´s Info__________\\
@@ -780,6 +831,7 @@ const productsData = {
       currency: "₡",
       height: 13,
       weight: 105,
+      type: "villians",
     },
     //
     //_________Cruella de Vil´s Info__________\\
@@ -795,6 +847,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 120,
+      type: "villians",
     },
     //
     //_________Evil Queen´s Info__________\\
@@ -810,6 +863,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 120,
+      type: "villians",
     },
     //
     //_________Maleficent´s Info__________\\
@@ -825,6 +879,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 120,
+      type: "villians",
     },
     //
     //_________Maleficent Dragon´s Info__________\\
@@ -840,6 +895,7 @@ const productsData = {
       currency: "₡",
       height: 25,
       weight: 200,
+      type: "villians",
     },
     //
     //_________Lady Tremaine´s Info__________\\
@@ -855,6 +911,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 120,
+      type: "villians",
     },
     //
     //_________Hades with Pain & Panic´s Info__________\\
@@ -870,6 +927,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 220,
+      type: "villians",
     },
     //
     //_________Yzma & Kronk´s Info__________\\
@@ -885,6 +943,7 @@ const productsData = {
       currency: "₡",
       height: 15,
       weight: 220,
+      type: "villians",
     },
     //
     //_________Scar with Hyenas´s Info__________\\
@@ -900,6 +959,7 @@ const productsData = {
       currency: "₡",
       height: 20,
       weight: 225,
+      type: "villians",
     },
     //
     //_________Gaston´s Info__________\\
@@ -915,6 +975,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 110,
+      type: "villians",
     },
     //
     //_________Queen of Hearts´s Info__________\\
@@ -930,6 +991,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 120,
+      type: "villians",
     },
     //
     //_________Witch´s Info__________\\
@@ -945,6 +1007,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 120,
+      type: "villians",
     },
     //
     //_________cheff Louis´s Info__________\\
@@ -960,6 +1023,7 @@ const productsData = {
       currency: "₡",
       height: 12,
       weight: 120,
+      type: "villians",
     },
     //
   ],
