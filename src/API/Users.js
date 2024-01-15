@@ -200,7 +200,7 @@ const productsData = {
     //_________Vanellope´s Info__________\\
     {
       id: 12,
-      img: "https://realpopmania.com/cdn/shop/products/7_09e4fbbf-b2f8-46ac-8b30-924aee3cee98_700x.png?v=1668004296",
+      img: "https://realpopmania.com/cdn/shop/products/8_67fea4ab-bb3c-4aa7-adb5-c62417f11244_grande.png?v=1678977350",
       title: "Ralph Breaks the Internet",
       character: "Vanellope",
       description:

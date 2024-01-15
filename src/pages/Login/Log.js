@@ -5,6 +5,7 @@ import Navigation from "../../components/navigation";
 import { useNavigate } from "react-router-dom";
 import "./log.css";
 import Carousels from "../../components/carrusel";
+
 const Login = () => {
   const { setAuth } = useAuth();
   const navigate = useNavigate();
@@ -15,17 +16,16 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <>
+      <Navigation />
+
+      <div className="container-carousel">
+        <Carousels />
+      </div>
       <center>
-        <Navigation />
-
-        <div className="container-carousel">
-          <Carousels />
-        </div>
-
         <Form onSubmit={handleLogin} />
       </center>
-    </div>
+    </>
   );
 };
 

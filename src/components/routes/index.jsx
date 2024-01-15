@@ -11,7 +11,6 @@ import Pixar from "../../pages/Products/pixar";
 import Villians from "../../pages/Products/villians";
 import CharactersDisney from "../../pages/Products/characters";
 const Routing = () => {
-  
   return (
     <Routes>
       {/* SOLO SE MOSTRARÁN AL INICIAR SESIÓN  */}
@@ -22,7 +21,7 @@ const Routing = () => {
         <Route path="/villians/details/:id" element={<Details />} />
         <Route path="/charactersDisney/details/:id" element={<Details />} />
         <Route path="/princess/details/:id" element={<Details />} />
-        <Route path="/details/:id/details/:i" element={<Details />} />
+        <Route path="/character/:id/details/:id" element={<Details />} />
 
         <Route path="/sell" element={<Sell />} />
         <Route path="/pixar" element={<Pixar />} />

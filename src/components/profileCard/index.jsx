@@ -3,14 +3,13 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import { productsData } from "../../API/Users";
 import { useState } from "react";
+import HoverRating from "../Rating";
+import BasicTable from "../Table";
 const ProfileCard = () => {
   const navigate = useNavigate();
   const pages = 3;
   const [page] = useState(0);
   const param = useParams();
-  // console.log(productsData.items[param.id]);
-  // console.log(param.id);
-  console.log(productsData.items[0].type);
   const backBtn = (e) => {
     e.preventDefault();
     navigate("/");
@@ -20,8 +19,6 @@ const ProfileCard = () => {
   const pixar = productsData.items[32].type;
   const villians = productsData.items[48].type;
   const disney = productsData.items[16].type;
-
-  console.log({ princess });
 
   return (
     <div border="info" className="container-details ">
@@ -45,7 +42,7 @@ const ProfileCard = () => {
             {productsData.items[param.id].character}
           </h1>
           <br />
-          <div className="details-Info">
+          {/* <div className="details-Info">
             <div className="details-name"></div>
             <p className="id-details">
               {" "}
@@ -59,7 +56,9 @@ const ProfileCard = () => {
             <p className="id-details">
               Height: {productsData.items[param.id].height}cm
             </p>
-          </div>
+          </div> */}
+          <BasicTable />
+          <HoverRating />
           <div className="description">
             <p>
               <h3>Description:</h3>"{productsData.items[param.id].description}"
@@ -77,10 +76,9 @@ const ProfileCard = () => {
             if (products.type === princess) {
               return (
                 <div key={products.id} className="card-Product">
-                  {/* <p className="poke-id-back">#{pokemon.id}</p> */}
                   <h4 className="product-Info">{products.title}</h4>
                   <div className="funko-imagen">
-                    <Link to={`details/${products.id}`}>
+                    <Link to={`/details/${products.id}`}>
                       <img src={products.img} alt={products.character} />
                     </Link>
                   </div>
@@ -88,10 +86,6 @@ const ProfileCard = () => {
                     <div className="product-name">
                       <h2 className="product-names">{products.character}</h2>
                     </div>
-                    {/* <p className="id-product">
-                  {products.currency}
-                  {products.value}
-                </p>{" "} */}
                   </div>
                 </div>
               );

@@ -8,6 +8,7 @@ const Details = () => {
   return (
     <>
       <Navigation />
+     
       <ProfileCard />
     </>
   );

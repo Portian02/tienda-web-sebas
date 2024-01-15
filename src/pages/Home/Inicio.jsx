@@ -12,7 +12,7 @@ import "./home.css";
 //
 ////////////////////////////////////FUNCIO DE HOME///////////////////////////////
 const Inicio = () => {
-  const { auth, setAuth } = useAuth();
+  const { auth} = useAuth();
   const navigate = useNavigate();
 
 
@@ -23,12 +23,14 @@ const Inicio = () => {
   return (
     <>
       <Navigation />
+     
       <div className="container-carousel">
         <Carousels />
       </div>
-
+   
       {auth.user ? (
         <>
+        
           <div className="conatiner-cards">
             <div className="main">
               <ShowProducts />

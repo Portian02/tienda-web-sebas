@@ -188,7 +188,7 @@ const funkoData = {
     //_________Vanellope´s Info__________\\
     {
       id: 12,
-      img: "https://realpopmania.com/cdn/shop/products/7_09e4fbbf-b2f8-46ac-8b30-924aee3cee98_700x.png?v=1668004296",
+      img: "https://www.pngitem.com/pimgs/m/98-988758_funko-pop-wreck-it-ralph-vanellope-hd-png.png",
       title: "Ralph Breaks the Internet",
       character: "Vanellope",
       description:
